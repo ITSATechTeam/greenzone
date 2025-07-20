@@ -1,0 +1,130 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+    height: 70px;
+    flex-shrink: 0;
+   
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 8px 15px;
+    width: 400px;
+    border: 1px solid #ddd;
+  }
+  .search-icon {
+    color: #888;
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+  }
+  .search-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    flex-grow: 1;
+    font-size: 14px;
+    color: #555;
+  }
+  .search-input::placeholder {
+    color: #aaa;
+  }
+  .user-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .notification-icon {
+    color: #555;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .user-name {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .dropdown-icon {
+    color: #888;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+  
+  .menu-icon {
+    display: none; 
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 15px;
+    color: #333;
+  }
+  .menu-icon svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+
+  @media (max-width: 1024px) {
+    .navbar {
+      padding: 15px 20px;
+      flex-wrap: wrap; 
+      height: auto; 
+      gap: 15px;
+      justify-content: flex-start; 
+    }
+  
+    .menu-icon {
+      display: block; 
+    }
+  
+    .search-bar {
+      width: 100%; 
+      order: 2; 
+    }
+    .user-section {
+      margin-left: auto; 
+      order: 1; 
+      justify-content: flex-end; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 10px 15px;
+    }
+    .search-bar {
+      padding: 6px 10px;
+    }
+    .search-input {
+      font-size: 13px;
+    }
+    .user-name {
+      font-size: 14px;
+    }
+    .notification-icon,
+    .user-avatar,
+    .dropdown-icon {
+      width: 18px;
+      height: 18px;
+    }
+    .menu-icon {
+      margin-right: 10px;
+    }
+  }
+  
