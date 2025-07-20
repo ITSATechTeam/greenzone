@@ -78,11 +78,11 @@
 }
 
 .renew-all-button {
-  background-color: rgba(35, 139, 69, 1);
+  background-color: #238B45;
   color: white;
   padding: 8px 15px;
   border: none;
-  border-radius: 8px;
+  border-radius: 16px;
   cursor: pointer;
   font-size: 13px;
   font-weight: 500;
