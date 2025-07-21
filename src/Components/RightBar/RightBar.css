@@ -34,7 +34,7 @@
 }
 
 .alert-icon {
-  color: #ff9800;
+  color: rgba(243, 208, 14, 1);
   width: 20px;
   height: 20px;
 }
@@ -70,7 +70,7 @@
 }
 
 .green-dot {
-  background-color: rgba(35, 139, 69, 1);
+  background-color: rgba(158, 221, 179, 1);
 }
 
 .alert-text {
@@ -139,16 +139,16 @@
   margin: 15px 0;
 }
 .status-awaiting {
-  color: #ff9800;
+  color: rgba(215, 184, 11, 1);
   font-weight: 500;
 }
 
 .status-completed {
-  color: #4caf50;
+  color: rgba(35, 139, 69, 1);
   font-weight: 500;
 }
 .status-declined {
-  color: #f44336;
+  color: rgba(203, 16, 16, 1);
   font-weight: 500;
 }
 
